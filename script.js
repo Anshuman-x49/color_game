@@ -49,13 +49,8 @@ btn.addEventListener("click", () => {
         overlay.style.display = "flex"
         setTimeout(() => {
             location.reload()
-            // overlay.style.display = "none"
-            // time = 0
-            // _score = 0
-            // timer.textContent = time
-            // score.textContent = _score
         }, 3000)
-    }, 10000)
+    }, 20000)
 })
 
 box.addEventListener("click", () => {
